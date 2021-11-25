@@ -10,12 +10,12 @@
   weight = -108
 [[main]]
   parent = "Links"
-  name = "LinkedIn"
-  url = "https://www.linkedin.com/"
+  name = "飞书文档"
+  url = "https://huami.feishu.cn/drive/home/"
 [[main]]
   parent = "Links"
-  name = "Twitter"
-  url = "https://twitter.com/"
+  name = "gitlab"
+  url = "https://gitlab.huami.com/"
 
 [[main]]
   name = "关于我们"
@@ -30,9 +30,9 @@
   weight = 1
   url = "https://github.com/#"
 [[social]]
-  name = "twitter"
+  name = "stackoverflow"
   weight = 2
-  url = "https://twitter.com/#"
+  url = "https://stackoverflow.com/#"
 [[social]]
   name = "linkedin"
   weight = 3
