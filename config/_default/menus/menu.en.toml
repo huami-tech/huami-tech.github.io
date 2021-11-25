@@ -11,11 +11,11 @@
 [[main]]
   parent = "Links"
   name = "飞书文档"
-  url = "https://huami.feishu.cn/drive/home/"
+  url = "https://www.feishu.cn/"
 [[main]]
   parent = "Links"
-  name = "gitlab"
-  url = "https://gitlab.huami.com/"
+  name = "github"
+  url = "https://github.com/"
 
 [[main]]
   name = "关于我们"
