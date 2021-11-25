@@ -2,72 +2,69 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://huami.tech.gitlab.huami.com/</loc>
+    <loc>http://huami.tech.github.io/</loc>
     <lastmod>2021-11-25T09:50:49+08:00</lastmod>
   </url><url>
-    <loc>http://huami.tech.gitlab.huami.com/categories/</loc>
+    <loc>http://huami.tech.github.io/categories/</loc>
     <lastmod>2021-11-25T09:50:49+08:00</lastmod>
   </url><url>
-    <loc>http://huami.tech.gitlab.huami.com/post/</loc>
+    <loc>http://huami.tech.github.io/post/</loc>
     <lastmod>2021-11-25T09:50:49+08:00</lastmod>
   </url><url>
-    <loc>http://huami.tech.gitlab.huami.com/tags/</loc>
+    <loc>http://huami.tech.github.io/tags/</loc>
     <lastmod>2021-11-25T09:50:49+08:00</lastmod>
   </url><url>
-    <loc>http://huami.tech.gitlab.huami.com/categories/technology/</loc>
+    <loc>http://huami.tech.github.io/categories/technology/</loc>
     <lastmod>2021-11-25T09:50:49+08:00</lastmod>
   </url><url>
-    <loc>http://huami.tech.gitlab.huami.com/tags/test/</loc>
+    <loc>http://huami.tech.github.io/tags/test/</loc>
     <lastmod>2021-11-25T09:50:49+08:00</lastmod>
   </url><url>
-    <loc>http://huami.tech.gitlab.huami.com/post/first/</loc>
+    <loc>http://huami.tech.github.io/post/first/</loc>
     <lastmod>2021-11-25T09:50:49+08:00</lastmod>
   </url><url>
-    <loc>http://huami.tech.gitlab.huami.com/archives/</loc>
+    <loc>http://huami.tech.github.io/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://huami.tech.gitlab.huami.com/tags/css/</loc>
+    <loc>http://huami.tech.github.io/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://huami.tech.gitlab.huami.com/tags/featured/</loc>
+    <loc>http://huami.tech.github.io/tags/featured/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://huami.tech.gitlab.huami.com/tags/html/</loc>
+    <loc>http://huami.tech.github.io/tags/html/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://huami.tech.gitlab.huami.com/tags/markdown/</loc>
+    <loc>http://huami.tech.github.io/tags/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://huami.tech.gitlab.huami.com/series/</loc>
+    <loc>http://huami.tech.github.io/series/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://huami.tech.gitlab.huami.com/categories/syntax/</loc>
+    <loc>http://huami.tech.github.io/categories/syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://huami.tech.gitlab.huami.com/tags/themes/</loc>
+    <loc>http://huami.tech.github.io/tags/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://huami.tech.gitlab.huami.com/categories/themes/</loc>
+    <loc>http://huami.tech.github.io/categories/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://huami.tech.gitlab.huami.com/series/themes-guide/</loc>
+    <loc>http://huami.tech.github.io/series/themes-guide/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://huami.tech.gitlab.huami.com/post/markdown-syntax/</loc>
+    <loc>http://huami.tech.github.io/post/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://huami.tech.gitlab.huami.com/tags/emoji/</loc>
+    <loc>http://huami.tech.github.io/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://huami.tech.gitlab.huami.com/post/emoji-support/</loc>
+    <loc>http://huami.tech.github.io/post/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://huami.tech.gitlab.huami.com/about/</loc>
+    <loc>http://huami.tech.github.io/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://huami.tech.gitlab.huami.com/about.pt/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://huami.tech.gitlab.huami.com/tags/index/</loc>
+    <loc>http://huami.tech.github.io/tags/index/</loc>
   </url>
 </urlset>
