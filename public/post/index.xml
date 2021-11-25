@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 华米技术博客</title>
-    <link>http://huami.tech.gitlab.io/post/</link>
+    <link>http://huami.tech.gitlab.huami.com/post/</link>
     <description>Recent content in Posts on 华米技术博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Thu, 25 Nov 2021 09:50:49 +0800</lastBuildDate><atom:link href="http://huami.tech.gitlab.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Nov 2021 09:50:49 +0800</lastBuildDate><atom:link href="http://huami.tech.gitlab.huami.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>快速开始</title>
-      <link>http://huami.tech.gitlab.io/post/first/</link>
+      <link>http://huami.tech.gitlab.huami.com/post/first/</link>
       <pubDate>Thu, 25 Nov 2021 09:50:49 +0800</pubDate>
       
-      <guid>http://huami.tech.gitlab.io/post/first/</guid>
+      <guid>http://huami.tech.gitlab.huami.com/post/first/</guid>
       <description>
         
           &lt;p&gt;本文主要介绍如果通过此平台发布您的文章，顺带对 notice 进行了简单使用&lt;/p&gt;
@@ -93,10 +93,10 @@
     
     <item>
       <title>语法指导</title>
-      <link>http://huami.tech.gitlab.io/post/markdown-syntax/</link>
+      <link>http://huami.tech.gitlab.huami.com/post/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://huami.tech.gitlab.io/post/markdown-syntax/</guid>
+      <guid>http://huami.tech.gitlab.huami.com/post/markdown-syntax/</guid>
       <description>
         
           &lt;p&gt;本文提供了一个可在 Hugo 内容文件中使用的基本 Markdown 语法示例，还展示了基本 HTML 元素是否在 Hugo 主题中使用 CSS 装饰。&lt;/p&gt;
@@ -243,10 +243,10 @@
     
     <item>
       <title>表情支持</title>
-      <link>http://huami.tech.gitlab.io/post/emoji-support/</link>
+      <link>http://huami.tech.gitlab.huami.com/post/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://huami.tech.gitlab.io/post/emoji-support/</guid>
+      <guid>http://huami.tech.gitlab.huami.com/post/emoji-support/</guid>
       <description>
         
           &lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>index on 华米技术博客</title>
-    <link>http://huami.tech.gitlab.io/tags/index/</link>
+    <link>http://huami.tech.gitlab.huami.com/tags/index/</link>
     <description>Recent content in index on 华米技术博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright><atom:link href="http://huami.tech.gitlab.io/tags/index/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright><atom:link href="http://huami.tech.gitlab.huami.com/tags/index/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posts</title>
-      <link>http://huami.tech.gitlab.io/post/</link>
+      <link>http://huami.tech.gitlab.huami.com/post/</link>
       <pubDate>Thu, 25 Nov 2021 09:50:49 +0800</pubDate>
       
-      <guid>http://huami.tech.gitlab.io/post/</guid>
+      <guid>http://huami.tech.gitlab.huami.com/post/</guid>
       <description>
         
           
