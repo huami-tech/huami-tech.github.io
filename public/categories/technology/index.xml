@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technology on 华米技术博客</title>
+    <link>http://huami.tech.github.io/categories/technology/</link>
+    <description>Recent content in Technology on 华米技术博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Thu, 25 Nov 2021 09:50:49 +0800</lastBuildDate><atom:link href="http://huami.tech.github.io/categories/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>快速开始</title>
+      <link>http://huami.tech.github.io/post/first/</link>
+      <pubDate>Thu, 25 Nov 2021 09:50:49 +0800</pubDate>
+      
+      <guid>http://huami.tech.github.io/post/first/</guid>
+      <description>
+        
+          &lt;p&gt;本文主要介绍如果通过此平台发布您的文章，顺带对 notice 进行了简单使用&lt;/p&gt;
+&lt;h1 id=&#34;发布你的第一篇文章&#34;&gt;发布你的第一篇文章&lt;/h1&gt;
+&lt;p&gt;创建第一篇文章，放到 post 目录，方便之后生成聚合页面。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;hugo new post/first.md
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;打开编辑 &lt;code&gt;post/first.md&lt;/code&gt; ：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;---
+&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;date: &amp;#34;2015-10-25T08:36:54-07:00&amp;#34;
+&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;title: &amp;#34;first&amp;#34;
+&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt; 
+&lt;span class=&#34;ln&#34;&gt;5&lt;/span&gt;---
+&lt;span class=&#34;ln&#34;&gt;6&lt;/span&gt;### Hello Hugo
+&lt;span class=&#34;ln&#34;&gt;7&lt;/span&gt; 1. aaa
+&lt;span class=&#34;ln&#34;&gt;8&lt;/span&gt; 1. bbb
+&lt;span class=&#34;ln&#34;&gt;9&lt;/span&gt; 1. ccc
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;使用-notice&#34;&gt;使用 notice&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;{{/% notice note &amp;#34;Note&amp;#34; /%}}
+&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;This is a standard &amp;#34;note&amp;#34; style.
+&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;{{/% /notice /%}}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;notice 后面的 参数有四种：note, info, tip 和 warning&lt;/p&gt;
+
+&lt;div class=&#34;notices note&#34;&gt;
+    &lt;div class=&#34;label&#34;&gt;Note&lt;/div&gt;
+    &lt;p&gt;This is a standard &amp;quot;note&amp;quot; style.&lt;/p&gt;
+
+  &lt;/div&gt;
+
+
+&lt;div class=&#34;notices info&#34;&gt;
+    &lt;div class=&#34;label&#34;&gt;Info&lt;/div&gt;
+    &lt;p&gt;Here is the &amp;quot;info&amp;quot; style.&lt;/p&gt;
+
+  &lt;/div&gt;
+
+
+&lt;div class=&#34;notices tip&#34;&gt;
+    &lt;div class=&#34;label&#34;&gt;Tip&lt;/div&gt;
+    &lt;p&gt;Here is a &amp;quot;tip&amp;quot; variant of a notice.&lt;/p&gt;
+
+  &lt;/div&gt;
+
+
+&lt;div class=&#34;notices warning&#34;&gt;
+    &lt;div class=&#34;label&#34;&gt;Warning&lt;/div&gt;
+    &lt;p&gt;Here is the &amp;quot;warning&amp;quot; flavor of a notice.&lt;/p&gt;
+
+  &lt;/div&gt;
+
+&lt;p&gt;一些更丰富的用法如：&lt;/p&gt;
+
+&lt;div class=&#34;notices tip&#34;&gt;
+    &lt;div class=&#34;label&#34;&gt;Complex Notices are Possible!&lt;/div&gt;
+    &lt;p&gt;This is a notice that has a lot of various kinds of content in it.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Here is a bulleted list&lt;/li&gt;
+&lt;li&gt;With more than one bullet
+&lt;ul&gt;
+&lt;li&gt;And even more than one level&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Code blocks are fine here, too....&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;SayHello&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;    &lt;span class=&#34;n&#34;&gt;Console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;WriteLine&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Hello, world!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;这些 case 都可以通过查看具体代码来找到使用方式&lt;/p&gt;
+&lt;/blockquote&gt;
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
