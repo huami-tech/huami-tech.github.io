@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>华米技术博客</title><link>https://example.com/</link><description>Recent content on 华米技术博客</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright><lastBuildDate>Thu, 25 Nov 2021 09:50:49 +0800</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml"/><item><title>快速开始</title><link>https://example.com/post/first/</link><pubDate>Thu, 25 Nov 2021 09:50:49 +0800</pubDate><guid>https://example.com/post/first/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>华米技术博客</title><link>https://huami-tech.github.io/</link><description>Recent content on 华米技术博客</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright><lastBuildDate>Thu, 25 Nov 2021 09:50:49 +0800</lastBuildDate><atom:link href="https://huami-tech.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>快速开始</title><link>https://huami-tech.github.io/post/first/</link><pubDate>Thu, 25 Nov 2021 09:50:49 +0800</pubDate><guid>https://huami-tech.github.io/post/first/</guid><description>
 &lt;p>本文主要介绍如果通过此平台发布您的文章，顺带对 notice 进行了简单使用&lt;/p>
 &lt;h1 id="发布你的第一篇文章">发布你的第一篇文章&lt;/h1>
 &lt;p>创建第一篇文章，放到 post 目录，方便之后生成聚合页面。&lt;/p>
@@ -55,7 +55,7 @@
 &lt;/div>
 &lt;blockquote>
 &lt;p>这些 case 都可以通过查看具体代码来找到使用方式&lt;/p>
-&lt;/blockquote></description></item><item><title>语法指导</title><link>https://example.com/post/markdown-syntax/</link><pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate><guid>https://example.com/post/markdown-syntax/</guid><description>
+&lt;/blockquote></description></item><item><title>语法指导</title><link>https://huami-tech.github.io/post/markdown-syntax/</link><pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate><guid>https://huami-tech.github.io/post/markdown-syntax/</guid><description>
 &lt;p>本文提供了一个可在 Hugo 内容文件中使用的基本 Markdown 语法示例，还展示了基本 HTML 元素是否在 Hugo 主题中使用 CSS 装饰。&lt;/p>
 &lt;h2 id="headings">Headings&lt;/h2>
 &lt;p>以下 HTML &lt;code>&amp;lt;h1&amp;gt;&lt;/code>—&lt;code>&amp;lt;h6&amp;gt;&lt;/code> 元素代表六级节标题。 &lt;code>&amp;lt;h1&amp;gt;&lt;/code> 是最高的部分级别，而 &lt;code>&amp;lt;h6&amp;gt;&lt;/code> 是最低的。&lt;/p>
@@ -193,7 +193,7 @@
 &lt;p>The above quote is excerpted from Rob Pike's &lt;a href="https://www.youtube.com/watch?v=PAAkCSZUG1c">talk&lt;/a> during Gopherfest, November 18, 2015.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>表情支持</title><link>https://example.com/post/emoji-support/</link><pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate><guid>https://example.com/post/emoji-support/</guid><description>
+&lt;/section></description></item><item><title>表情支持</title><link>https://huami-tech.github.io/post/emoji-support/</link><pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate><guid>https://huami-tech.github.io/post/emoji-support/</guid><description>
 &lt;p>Emoji can be enabled in a Hugo project in a number of ways.&lt;/p>
 &lt;p>The &lt;a href="https://gohugo.io/functions/emojify/">&lt;code>emojify&lt;/code>&lt;/a> function can be called directly in templates or &lt;a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes">Inline Shortcodes&lt;/a>.&lt;/p>
 &lt;p>To enable emoji globally, set &lt;code>enableEmoji&lt;/code> to &lt;code>true&lt;/code> in your site's &lt;a href="https://gohugo.io/getting-started/configuration/">configuration&lt;/a> and then you can type emoji shorthand codes directly in content files; e.g.&lt;/p>
