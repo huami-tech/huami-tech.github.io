@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>test on 华米技术博客</title><link>https://example.com/tags/test/</link><description>Recent content in test on 华米技术博客</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright><lastBuildDate>Thu, 25 Nov 2021 09:50:49 +0800</lastBuildDate><atom:link href="https://example.com/tags/test/index.xml" rel="self" type="application/rss+xml"/><item><title>快速开始</title><link>https://example.com/post/first/</link><pubDate>Thu, 25 Nov 2021 09:50:49 +0800</pubDate><guid>https://example.com/post/first/</guid><description>
+&lt;p>本文主要介绍如果通过此平台发布您的文章，顺带对 notice 进行了简单使用&lt;/p>
+&lt;h1 id="发布你的第一篇文章">发布你的第一篇文章&lt;/h1>
+&lt;p>创建第一篇文章，放到 post 目录，方便之后生成聚合页面。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln">1&lt;/span>hugo new post/first.md
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>打开编辑 &lt;code>post/first.md&lt;/code> ：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln">1&lt;/span>---
+&lt;span class="ln">2&lt;/span>date: &amp;#34;2015-10-25T08:36:54-07:00&amp;#34;
+&lt;span class="ln">3&lt;/span>title: &amp;#34;first&amp;#34;
+&lt;span class="ln">4&lt;/span>
+&lt;span class="ln">5&lt;/span>---
+&lt;span class="ln">6&lt;/span>### Hello Hugo
+&lt;span class="ln">7&lt;/span> 1. aaa
+&lt;span class="ln">8&lt;/span> 1. bbb
+&lt;span class="ln">9&lt;/span> 1. ccc
+&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="使用-notice">使用 notice&lt;/h1>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln">1&lt;/span>{{/% notice note &amp;#34;Note&amp;#34; /%}}
+&lt;span class="ln">2&lt;/span>This is a standard &amp;#34;note&amp;#34; style.
+&lt;span class="ln">3&lt;/span>{{/% /notice /%}}
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>notice 后面的 参数有四种：note, info, tip 和 warning&lt;/p>
+&lt;div class="notices note">
+&lt;div class="label">Note&lt;/div>
+&lt;p>This is a standard &amp;quot;note&amp;quot; style.&lt;/p>
+&lt;/div>
+&lt;div class="notices info">
+&lt;div class="label">Info&lt;/div>
+&lt;p>Here is the &amp;quot;info&amp;quot; style.&lt;/p>
+&lt;/div>
+&lt;div class="notices tip">
+&lt;div class="label">Tip&lt;/div>
+&lt;p>Here is a &amp;quot;tip&amp;quot; variant of a notice.&lt;/p>
+&lt;/div>
+&lt;div class="notices warning">
+&lt;div class="label">Warning&lt;/div>
+&lt;p>Here is the &amp;quot;warning&amp;quot; flavor of a notice.&lt;/p>
+&lt;/div>
+&lt;p>一些更丰富的用法如：&lt;/p>
+&lt;div class="notices tip">
+&lt;div class="label">Complex Notices are Possible!&lt;/div>
+&lt;p>This is a notice that has a lot of various kinds of content in it.&lt;/p>
+&lt;ul>
+&lt;li>Here is a bulleted list&lt;/li>
+&lt;li>With more than one bullet
+&lt;ul>
+&lt;li>And even more than one level&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Code blocks are fine here, too....&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-csharp" data-lang="csharp">&lt;span class="ln">1&lt;/span>&lt;span class="k">public&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">SayHello&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;span class="ln">2&lt;/span>&lt;span class="p">{&lt;/span>
+&lt;span class="ln">3&lt;/span> &lt;span class="n">Console&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">WriteLine&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;Hello, world!&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;span class="ln">4&lt;/span>&lt;span class="p">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>
+&lt;/div>
+&lt;blockquote>
+&lt;p>这些 case 都可以通过查看具体代码来找到使用方式&lt;/p>
+&lt;/blockquote></description></item></channel></rss>
