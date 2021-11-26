@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>华米技术博客</title><link>https://huami-tech.github.io/</link><description>Recent content on 华米技术博客</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright><lastBuildDate>Thu, 25 Nov 2021 09:50:49 +0800</lastBuildDate><atom:link href="https://huami-tech.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>快速开始</title><link>https://huami-tech.github.io/post/first/</link><pubDate>Thu, 25 Nov 2021 09:50:49 +0800</pubDate><guid>https://huami-tech.github.io/post/first/</guid><description>
-&lt;p>本文主要介绍如果通过此平台发布您的文章，顺带对 notice 进行了简单使用&lt;/p>
+&lt;p>本文主要介绍如何通过此平台发布您的文章，对于如何使用 hugo 不做过多说明。&lt;/p>
+&lt;div class="notices info">
+&lt;div class="label">特别申明&lt;/div>
+&lt;p>本技术博客平台基于 &lt;a href="https://gohugo.io/">hugo&lt;/a>, 使用了&lt;a href="https://github.com/chipzoller/hugo-clarity">clarity&lt;/a> 作为默认主题，在此对参与上述项目的所有社区贡献者表示感谢！&lt;/p>
+&lt;/div>
+&lt;h1 id="本地运行">本地运行&lt;/h1>
+&lt;p>1、从 github 上 clone 项目工程&lt;/p>
+&lt;blockquote>
+&lt;p>git clone &lt;a href="https://github.com/huami-tech/huami-tech.github.io.git">https://github.com/huami-tech/huami-tech.github.io.git&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>2、cd 到工程目录下&lt;/p>
+&lt;p>3、执行 &lt;code>hugo server&lt;/code>&lt;/p>
+&lt;p>4、浏览器打开 localhost:1313 即可浏览&lt;/p>
 &lt;h1 id="发布你的第一篇文章">发布你的第一篇文章&lt;/h1>
-&lt;p>创建第一篇文章，放到 post 目录，方便之后生成聚合页面。&lt;/p>
+&lt;p>1、从 github 上 clone 项目工程&lt;/p>
+&lt;blockquote>
+&lt;p>git clone &lt;a href="https://github.com/huami-tech/huami-tech.github.io.git">https://github.com/huami-tech/huami-tech.github.io.git&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>2、cd 到工程目录下，创建第一篇文章（放到 post 目录，方便之后生成聚合页面），如文件名为 first.md&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln">1&lt;/span>hugo new post/first.md
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>打开编辑 &lt;code>post/first.md&lt;/code> ：&lt;/p>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>3、打开编辑 &lt;code>post/first.md&lt;/code> ：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln">1&lt;/span>---
 &lt;span class="ln">2&lt;/span>date: &amp;#34;2015-10-25T08:36:54-07:00&amp;#34;
 &lt;span class="ln">3&lt;/span>title: &amp;#34;first&amp;#34;
@@ -13,49 +29,7 @@
 &lt;span class="ln">7&lt;/span> 1. aaa
 &lt;span class="ln">8&lt;/span> 1. bbb
 &lt;span class="ln">9&lt;/span> 1. ccc
-&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="使用-notice">使用 notice&lt;/h1>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln">1&lt;/span>{{/% notice note &amp;#34;Note&amp;#34; /%}}
-&lt;span class="ln">2&lt;/span>This is a standard &amp;#34;note&amp;#34; style.
-&lt;span class="ln">3&lt;/span>{{/% /notice /%}}
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>notice 后面的 参数有四种：note, info, tip 和 warning&lt;/p>
-&lt;div class="notices note">
-&lt;div class="label">Note&lt;/div>
-&lt;p>This is a standard &amp;quot;note&amp;quot; style.&lt;/p>
-&lt;/div>
-&lt;div class="notices info">
-&lt;div class="label">Info&lt;/div>
-&lt;p>Here is the &amp;quot;info&amp;quot; style.&lt;/p>
-&lt;/div>
-&lt;div class="notices tip">
-&lt;div class="label">Tip&lt;/div>
-&lt;p>Here is a &amp;quot;tip&amp;quot; variant of a notice.&lt;/p>
-&lt;/div>
-&lt;div class="notices warning">
-&lt;div class="label">Warning&lt;/div>
-&lt;p>Here is the &amp;quot;warning&amp;quot; flavor of a notice.&lt;/p>
-&lt;/div>
-&lt;p>一些更丰富的用法如：&lt;/p>
-&lt;div class="notices tip">
-&lt;div class="label">Complex Notices are Possible!&lt;/div>
-&lt;p>This is a notice that has a lot of various kinds of content in it.&lt;/p>
-&lt;ul>
-&lt;li>Here is a bulleted list&lt;/li>
-&lt;li>With more than one bullet
-&lt;ul>
-&lt;li>And even more than one level&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>Code blocks are fine here, too....&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-csharp" data-lang="csharp">&lt;span class="ln">1&lt;/span>&lt;span class="k">public&lt;/span> &lt;span class="k">void&lt;/span> &lt;span class="n">SayHello&lt;/span>&lt;span class="p">()&lt;/span>
-&lt;span class="ln">2&lt;/span>&lt;span class="p">{&lt;/span>
-&lt;span class="ln">3&lt;/span> &lt;span class="n">Console&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">WriteLine&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;Hello, world!&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;span class="ln">4&lt;/span>&lt;span class="p">}&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>
-&lt;/div>
-&lt;blockquote>
-&lt;p>这些 case 都可以通过查看具体代码来找到使用方式&lt;/p>
-&lt;/blockquote></description></item><item><title>语法指导</title><link>https://huami-tech.github.io/post/markdown-syntax/</link><pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate><guid>https://huami-tech.github.io/post/markdown-syntax/</guid><description>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>4、提交代码即可&lt;/p></description></item><item><title>语法指导</title><link>https://huami-tech.github.io/post/markdown-syntax/</link><pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate><guid>https://huami-tech.github.io/post/markdown-syntax/</guid><description>
 &lt;p>本文提供了一个可在 Hugo 内容文件中使用的基本 Markdown 语法示例，还展示了基本 HTML 元素是否在 Hugo 主题中使用 CSS 装饰。&lt;/p>
 &lt;h2 id="headings">Headings&lt;/h2>
 &lt;p>以下 HTML &lt;code>&amp;lt;h1&amp;gt;&lt;/code>—&lt;code>&amp;lt;h6&amp;gt;&lt;/code> 元素代表六级节标题。 &lt;code>&amp;lt;h1&amp;gt;&lt;/code> 是最高的部分级别，而 &lt;code>&amp;lt;h6&amp;gt;&lt;/code> 是最低的。&lt;/p>

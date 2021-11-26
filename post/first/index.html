@@ -90,11 +90,27 @@ Share on:
 </div>
 <h2>Overview</h2>
 <nav id=TableOfContents></nav>
-<p>本文主要介绍如果通过此平台发布您的文章，顺带对 notice 进行了简单使用</p>
+<p>本文主要介绍如何通过此平台发布您的文章，对于如何使用 hugo 不做过多说明。</p>
+<div class="notices info">
+<div class=label>特别申明</div>
+<p>本技术博客平台基于 <a href=https://gohugo.io/>hugo</a>, 使用了<a href=https://github.com/chipzoller/hugo-clarity>clarity</a> 作为默认主题，在此对参与上述项目的所有社区贡献者表示感谢！</p>
+</div>
+<h1 id=本地运行>本地运行</h1>
+<p>1、从 github 上 clone 项目工程</p>
+<blockquote>
+<p>git clone <a href=https://github.com/huami-tech/huami-tech.github.io.git>https://github.com/huami-tech/huami-tech.github.io.git</a></p>
+</blockquote>
+<p>2、cd 到工程目录下</p>
+<p>3、执行 <code>hugo server</code></p>
+<p>4、浏览器打开 localhost:1313 即可浏览</p>
 <h1 id=发布你的第一篇文章>发布你的第一篇文章</h1>
-<p>创建第一篇文章，放到 post 目录，方便之后生成聚合页面。</p>
+<p>1、从 github 上 clone 项目工程</p>
+<blockquote>
+<p>git clone <a href=https://github.com/huami-tech/huami-tech.github.io.git>https://github.com/huami-tech/huami-tech.github.io.git</a></p>
+</blockquote>
+<p>2、cd 到工程目录下，创建第一篇文章（放到 post 目录，方便之后生成聚合页面），如文件名为 first.md</p>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=ln>1</span>hugo new post/first.md
-</code></pre></div><p>打开编辑 <code>post/first.md</code> ：</p>
+</code></pre></div><p>3、打开编辑 <code>post/first.md</code> ：</p>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=ln>1</span>---
 <span class=ln>2</span>date: &#34;2015-10-25T08:36:54-07:00&#34;
 <span class=ln>3</span>title: &#34;first&#34;
@@ -104,49 +120,7 @@ Share on:
 <span class=ln>7</span> 1. aaa
 <span class=ln>8</span> 1. bbb
 <span class=ln>9</span> 1. ccc
-</code></pre></div><h1 id=使用-notice>使用 notice</h1>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=ln>1</span>{{/% notice note &#34;Note&#34; /%}}
-<span class=ln>2</span>This is a standard &#34;note&#34; style.
-<span class=ln>3</span>{{/% /notice /%}}
-</code></pre></div><p>notice 后面的 参数有四种：note, info, tip 和 warning</p>
-<div class="notices note">
-<div class=label>Note</div>
-<p>This is a standard "note" style.</p>
-</div>
-<div class="notices info">
-<div class=label>Info</div>
-<p>Here is the "info" style.</p>
-</div>
-<div class="notices tip">
-<div class=label>Tip</div>
-<p>Here is a "tip" variant of a notice.</p>
-</div>
-<div class="notices warning">
-<div class=label>Warning</div>
-<p>Here is the "warning" flavor of a notice.</p>
-</div>
-<p>一些更丰富的用法如：</p>
-<div class="notices tip">
-<div class=label>Complex Notices are Possible!</div>
-<p>This is a notice that has a lot of various kinds of content in it.</p>
-<ul>
-<li>Here is a bulleted list</li>
-<li>With more than one bullet
-<ul>
-<li>And even more than one level</li>
-</ul>
-</li>
-</ul>
-<p>Code blocks are fine here, too....</p>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-csharp data-lang=csharp><span class=ln>1</span><span class=k>public</span> <span class=k>void</span> <span class=n>SayHello</span><span class=p>()</span>
-<span class=ln>2</span><span class=p>{</span>
-<span class=ln>3</span>    <span class=n>Console</span><span class=p>.</span><span class=n>WriteLine</span><span class=p>(</span><span class=s>&#34;Hello, world!&#34;</span><span class=p>);</span>
-<span class=ln>4</span><span class=p>}</span>
-</code></pre></div>
-</div>
-<blockquote>
-<p>这些 case 都可以通过查看具体代码来找到使用方式</p>
-</blockquote>
+</code></pre></div><p>4、提交代码即可</p>
 </article>
 <aside class=sidebar>
 <section class=sidebar_inner>
