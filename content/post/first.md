@@ -17,21 +17,41 @@ categories:
   - Technology
 tags:
   - test
-# comment: false # Disable comment if false.
 ---
 
-本文主要介绍如果通过此平台发布您的文章，顺带对 notice 进行了简单使用
+本文主要介绍如何通过此平台发布您的文章，对于如何使用 hugo 不做过多说明。
+
 <!--more-->
+
+{{% notice info "特别申明" %}}
+本技术博客平台基于 [hugo](https://gohugo.io/), 使用了[clarity](https://github.com/chipzoller/hugo-clarity) 作为默认主题，在此对参与上述项目的所有社区贡献者表示感谢！
+{{% /notice %}}
+
+# 本地运行
+
+1、从 github 上 clone 项目工程
+
+> git clone https://github.com/huami-tech/huami-tech.github.io.git
+
+2、cd 到工程目录下
+
+3、执行 `hugo server` 
+
+4、浏览器打开 localhost:1313 即可浏览
 
 # 发布你的第一篇文章
 
-创建第一篇文章，放到 post 目录，方便之后生成聚合页面。
+1、从 github 上 clone 项目工程
+
+> git clone https://github.com/huami-tech/huami-tech.github.io.git
+
+2、cd 到工程目录下，创建第一篇文章（放到 post 目录，方便之后生成聚合页面），如文件名为 first.md
 
 ```
 hugo new post/first.md
 ```
 
-打开编辑 `post/first.md` ：
+3、打开编辑 `post/first.md` ：
 
 ```
 ---
@@ -45,46 +65,5 @@ title: "first"
  1. ccc
 ```
 
-# 使用 notice
-```
-{{/% notice note "Note" /%}}
-This is a standard "note" style.
-{{/% /notice /%}}
-```
-notice 后面的 参数有四种：note, info, tip 和 warning
+4、提交代码即可
 
-{{% notice note "Note" %}}
-This is a standard "note" style.
-{{% /notice %}}
-
-{{% notice info "Info" %}}
-Here is the "info" style.
-{{% /notice %}}
-
-{{% notice tip "Tip" %}}
-Here is a "tip" variant of a notice.
-{{% /notice %}}
-
-{{% notice warning "Warning" %}}
-Here is the "warning" flavor of a notice.
-{{% /notice %}}
-
-一些更丰富的用法如：
-
-{{% notice tip "Complex Notices are Possible!" %}}
-This is a notice that has a lot of various kinds of content in it.  
-
-* Here is a bulleted list
-* With more than one bullet 
-    * And even more than one level
-
-Code blocks are fine here, too....
-```csharp
-public void SayHello()
-{
-    Console.WriteLine("Hello, world!");
-}
-```
-{{% /notice %}}
-
-> 这些 case 都可以通过查看具体代码来找到使用方式
